@@ -75,6 +75,8 @@ section.block { padding: 3rem 0 1.5rem; border-top: 1px solid var(--line); margi
 .pub:last-of-type { border-bottom: 1px solid var(--line); }
 .pub .year { color: var(--accent); font-size: 1.2rem; }
 .pub h3 { font-size: 1.05rem; line-height: 1.35; margin: 0 0 .3rem; }
+.pub .year .num { display: block; }
+.pub .year .yr { display: block; font-size: .8rem; color: var(--muted); }
 .pub .authors, .pub .status { font-size: .93rem; color: var(--muted); margin: .1rem 0; }
 .pub .venue { font-size: .93rem; font-style: italic; margin: .1rem 0; }
 .pub .abs { font-size: .93rem; color: var(--muted); margin: .6rem 0 0; }
